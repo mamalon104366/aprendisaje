@@ -11,10 +11,11 @@ cd (para ingresar en una carpeta o directorio)
 cd .. // para devolver una carpeta anterior
 mkdir (nombre de la carpeta creada) // mkdir sirve para crear una carpeta
 ls -a // sirve para ver carpetas ocultas
-rm (nombre del archivo) // para elimiar el archivo
+rm -f (nombre del archivo) // para elimiar el archivo
 git restore // sirve para restaurar el archivo eliminado
 mv (nombre del archivo) (nombre del archivo nuevo)
 git diff // vemos la modificaciones hechas
+touch archivo.txt
 
 git init // para inicialisar un repositorio en dicha carpeta donde este
 git add // agregar el archivo
