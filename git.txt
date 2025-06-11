@@ -1,0 +1,22 @@
+git config --global user.name "mamalon104366" // para poner el nombre de la configuration
+git config --global user.email "estebanmerlano345@gmail.com" // para poner el correo a git en la configuration
+git config //global core.editor "code --wait" // para que la terminal no se cierre cuando se Habra el editor
+git config --global -e // para abrir la configuration en el editor de Código
+git config --global core.autocrlf true // para algo
+git config -h // ver todas las configuraciones de git
+
+ls // para ver una lista de donde estamos en el directorio
+pwd // nos indica en que directorio estamos
+cd (para ingresar en una carpeta o directorio)
+cd .. // para devolver una carpeta anterior
+mkdir (nombre de la carpeta creada) // mkdir sirve para crear una carpeta
+ls -a // sirve para ver carpetas ocultas
+rm (nombre del archivo) // para elimiar el archivo
+git restore // sirve para restaurar el archivo eliminado
+mv (nombre del archivo) (nombre del archivo nuevo)
+git diff // vemos la modificaciones hechas
+
+git init // para inicialisar un repositorio en dicha carpeta donde este
+git add // agregar el archivo
+git commit //sirve para comentar nuestro archivo paso obligatorio
+git push // para plublicar el archivo
